@@ -26,7 +26,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-#NEW: (START) ##########################################################
+#NEW: (START) ###########################################################
       - name: Docker meta
         id: docker_meta
         uses: docker/metadata-action@v5
