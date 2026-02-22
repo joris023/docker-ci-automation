@@ -38,7 +38,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ghcr.io/joris023s/docker-ci-automation:${{ github.run_id }}
+          tags: ghcr.io/joris023/docker-ci-automation:${{ github.run_id }}
           target: test
           cache-from: type=gha
           cache-to: type=gha,mode=max
