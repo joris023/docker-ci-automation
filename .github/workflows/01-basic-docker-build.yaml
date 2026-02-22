@@ -1,6 +1,6 @@
 ---
 name: 01 Basic Docker Build
-# simplest workflow possible
+# simplest workflow possible bla
 
 on:
   push:
@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: bretfisher/docker-ci-automation:latest,bretfisher/docker-ci-automation:01
+          tags: joris023/docker-ci-automation:latest,joris023/docker-ci-automation:01
